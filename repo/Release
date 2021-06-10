@@ -1,11 +1,11 @@
-Origin: SarahH12099 Repo
-Label: SarahH12099 Repo
+Origin: YT Reborn Repo
+Label: YT Reborn Repo
 Suite: stable
 Version: 1.0
-Codename: sarahh12099repo
+Codename: ytrebornrepo
 Architectures: iphoneos-arm
 Components: main
-Description: SarahH12099 Repo
+Description: YT Reborn Repo
 MD5Sum:
  8b903fc649981314f291716d102b437c 4860 Packages
  c89ef7e4edf2482e93ad2e16230ca67a 1856 Packages.bz2
