@@ -1,1 +1,1 @@
-var jqry = document.createElement('script');jqry.src = "https://code.jquery.com/jquery-3.3.1.min.js";document.getElementsByTagName('head')[0].appendChild(jqry);setTimeout(function (){$.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data){document.write('<p>' + JSON.stringify(data.ip, null, 2) + '</p>');});}, 1000);
+$.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data){document.write(JSON.stringify(data.ip, null, 2));});
